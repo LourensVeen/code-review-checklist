@@ -220,6 +220,58 @@ style, which may not be relevant to the code you're looking at.
 
 ## Providing feedback
 
+The main purpose of a code review is to find issues or defects in a piece of
+code. These issues then need to be communicated back to the developer who
+proposed the change, so that they can be fixed. Doing this badly can quickly
+spoil everyone's fun.
+
+Perhaps the most important point in this guide therefore is that the goal of a
+code review is *not* to provide criticism of a piece of code, or even worse,
+the person who wrote it. *The goal is to help create an improved version.*
+
+So, when providing feedback, stay positive and constructive. Suggest a better
+way if possible, rather than just commenting that the current solution is bad.
+Ideally, submit a patch rather than an issue ticket. And always keep in mind
+that you're not required to find anything, if the code is fine, it's fine. If
+it's more than fine, file a compliment!
+
+Most of our projects are hosted on GitHub, so most results will be
+communicated through pull requests and issues there. However, if you find
+something particularly bad or weird, consider talking in person, where a
+lengthy, complicated, or politically sensitive explanation is easier to do.
+
+
+### Communicating results through GitHub
+
+If you are reviewing a pull request on Github, comments should be added in the
+`Files changed` section, so they can be attached to a particular line of code.
+Make many small comments this way, rather than a big ball of text with
+everything in it, so that different issues can be kept separate. Where
+relevant, refer to existing Issues and documentation.
+
+If you're reviewing existing code rather than changes, it is still handy to
+use pull requests. If you find an issue that has an obvious fix, you can
+submit a pull request with a patch in the usual way.
+
+If you don't have a fix, you can add an empty comment to the relevant line,
+and create a pull request from that as a patch. The relevant line(s) will then
+light up in the pull request's `Files changed` overview, and you can add your
+comments there. In this case, either the pull request is never merged (but the
+comments processed some other way, or not at all), or the extra comments are
+reverted and replaced by an agreed-upon fix.
+
+In all cases, file many small pull requests, not one big one, as GitHub's
+support for code reviews is rather limited. Putting too many issues into a
+single pull request quickly becomes unwieldy.
+
+
+### GitHub add-ons
+
+There are many companies that sell tools that support the code review process,
+see `tools.md` for some notes. If you are using Zenhub in your repository, you
+can make a category *Code Review* and integrate it into your work flow. If you
+decide to try using one of these, be sure to record your experiences and
+contribute them to this guide.
 
 
 ## References
