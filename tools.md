@@ -8,7 +8,7 @@ outdated again fairly quickly, I'll not turn this into an extensive document,
 but as a set of notes it may still be useful to those wanting to give this a
 try.
 
-- SmartBear Collaborator (smartbear.com/collaborator)
+- SmartBear Collaborator (http://smartbear.com/collaborator)
   - License: proprietary, runs on your own server
   - Workflow:
     - Submit code from SCM to Collaborator for review
@@ -20,41 +20,41 @@ try.
     - Review documents (user stories, test plans)
   - Github: pull request support, creates a link to external review
 
-- Klocwork (www.klocwork.com/Code-Review-Tools)
+- Klocwork (http://www.klocwork.com/Code-Review-Tools)
   - Link dead, doesn't appear to offer any code review tools
 
-- Jetbrains Upsource (www.jetbrains.com/Upsource)
+- Jetbrains Upsource (http://www.jetbrains.com/Upsource)
   - License: proprietary, runs on your own server or cloud
   - Integrates with JetBrains IDEs (PyCharm, IntelliJ)
   - No Github integration?
 
-- Reviewable (reviewable.io)
+- Reviewable (http://reviewable.io)
   - Free for public and personal repos, hosted?
   - 10 users private repos for $39/month
   - Heavily integrated with Github
 
-- ReviewNinja (www.review.ninja)
+- ReviewNinja (http://www.review.ninja)
   - AL2.0, hosted at SAP for free, or hosted locally
   - Heavily integrated with Github
   - Approve changes, or flag a problem
   - Looks a bit less highly developed than Reviewable, maybe not much better than bare Github
 
-- Gerrit Code Review (gerrithub.io)
+- Gerrit Code Review (http://gerrithub.io)
   - AL2.0 and other FOSS, hosted locally
   - Need to submit to Gerrit, forwards changes to Github, which will become read-only
   - Submit changes through git protocol (i.e. command line tool or IDE integration)
   - Web interface for reviews
 
-- Barkeep (getbarkeep.org)
+- Barkeep (http://getbarkeep.org)
   - MIT license, hosted locally
   - Made by Ooyala
 
-- Codebrag (codebrag.com)
+- Codebrag (http://codebrag.com)
   - AGPLv3, hosted locally
   - Gets updates from repository, offers them up for review, mails reviewers
   - Does not integrate with Github Pull Requests
 
-- Review Board (reviewboard.org)
+- Review Board (http://reviewboard.org)
   - Permissive open source, $10/user/month with Github Enterprise, $29/month with hosting
     - free for open source and educational use
   - Issue tracking for comments
