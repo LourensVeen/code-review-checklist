@@ -61,6 +61,74 @@ checklist. If tools are not available, they should be checked manually.
 - Coding conventions (e.g. PEP 8)
 - Test coverage
 
+### Program checklist
+
+Here is a list of things to consider when looking at the program as a whole,
+rather than when looking at an individual file or change.
+
+(TODO: look at how this interacts with the eSTeP checklist)
+
+#### Documentation
+
+Documentation is a prerequisite for using, developing and reviewing the
+program. Here are some things to check for.
+
+- Is there a description of the purpose of the program or library?
+- Are detailed requirements listed?
+- Are requirements ranked according to MoSCoW?
+- Is the use and function of third-party libraries documented?
+- Is the structure/architecture of the program documented? (see below)
+- Is there an installation manual?
+- Is there a user manual?
+- Is there documentation on how to contribute?
+  - Including how to submit changes
+  - Including how to document your changes
+
+#### Architecture
+
+These items are mainly important for larger programs, but may still be good
+to consider for small ones as well.
+
+- Is the program split up into clearly separated modules?
+- Is there a clear, hierarchical / layered, dependency structure between
+  these modules?
+  - If not, modules should be rearranged, or it may make more sense to combine
+    heavily independent modules
+- Can the design be simplified?
+
+#### Security
+
+If you're making software that is accesible to the outside world (e.g. a web
+application), then security becomes important. Security issues are defects,
+but not all defects are security issues. A security-conscious design can help
+mitigate the security impact of defects.
+
+- Which modules deal with user input?
+- Which modules generate output?
+- Are input and output compartmentalised?
+  - If not, consider making separate modules that manage all input
+    and output, so validation can happen in one place
+- In which modules is untrusted data present?
+  - The fewer the better
+- Is untrusted data compartmentalised?
+  - Ideally, validate in the input module and pass only
+    validated data to other parts
+
+#### Legal
+
+"I'm an engineer, not a lawyer!" is an oft-overheard phrase, but being an
+engineer doesn't give you permission to ignore the legal rights of the
+creators of the code you're using. Here are some things to check. When in
+doubt, ask your licensing person for advice.
+
+- Are the licenses of all modules/libraries that are used documented?
+- Are the requirements set by those licenses fulfilled?
+  - Are the licenses included where needed?
+  - Are copyright statements included in the code where needed?
+  - Are copyright statements included in the documentation where needed?
+- Are the licenses of all the parts compatible with each other?
+- Is the project license compatible with all libraries?
+
 ## Providing feedback
 
 
