@@ -1,4 +1,4 @@
-# Checklist for code reviews
+# Code reviews
 
 ## Introduction
 At the eScience Center, we value software quality. Higher quality software has
