@@ -47,7 +47,7 @@ sources and experience.
 working day. Don't review full-time.
 
 - Don't review for more than an hour at a time, after that the success rate
-  drops quite quickly
+drops quite quickly
 - Don't review more than 400 LOC at a time, less than 200 LOC is better
 - Take the time, read carefully, don't review more than 500 LOC / hour
 
