@@ -61,7 +61,7 @@ checklist. If tools are not available, they should be checked manually.
 - Coding conventions (e.g. PEP 8)
 - Test coverage
 
-### Program checklist
+### Program level checklist
 
 Here is a list of things to consider when looking at the program as a whole,
 rather than when looking at an individual file or change.
@@ -128,6 +128,71 @@ doubt, ask your licensing person for advice.
   - Are copyright statements included in the documentation where needed?
 - Are the licenses of all the parts compatible with each other?
 - Is the project license compatible with all libraries?
+
+### File/Change level checklist
+
+When you're checking individual changes (e.g. pull requests) or files, the
+code itself becomes the subject of scrutiny. Depending on the language, files
+may contain interfaces, classes or other type definitions, and functions. All
+these should be checked, as well as the file overall:
+
+- Does this file contain a logical grouping of functionality?
+- How big is it? Should it be split up?
+- Is it easy to understand?
+- Can any of the code be replaced by library functions?
+
+#### Interfaces
+- Is the interface documented?
+- Does the concept it models make sense?
+- Can it be split up further? (Interfaces should be as small as possible)
+
+Note that most of the following items assume an object-oriented programming
+style, which may not be relevant to the code you're looking at.
+
+#### Classes and types
+
+- Is the class documented?
+- Does it have a single responsibility? Can it be split?
+- If it's designed to be extended, can it be?
+- If it's not designed to be extended, is it protected against that? (e.g. final declarations)
+- If it's derived from another class, can you substitute an object of this class for one of its parent class(es)?
+- Is the class testable?
+    - Are the dependencies clear and explicit?
+    - Does it have a small number of dependencies?
+    - Does it depend on interfaces, rather than on classes?
+
+#### Function/Method declarations
+
+- Are there comments that describe the intent of the function or method?
+- Are input and output documented? Including units?
+- Are pre- and postconditions documented?
+- Are edge cases and unusual things commented?
+    
+#### Function/Method definitions
+
+- Are edge cases and unusual things commented?
+- Is there incomplete code?
+- Could this function be split up (is it not too long)?
+- Does it work? Perform intended function, logic correct, ...
+- Is it easy to understand?
+- Is there redundant or duplicate code? (DRY)
+- Do loops have a set length and do they terminate correctly?
+- Can debugging or logging code be removed?
+- Can any of the code be replaced by library functions?
+
+#### Security
+
+- If you're using a library, do you check errors it returns?
+- Are all data inputs checked?
+- Are output values checked and encoded properly?
+- Are invalid parameters handled correctly?
+
+#### Tests
+
+- Do unit tests actually test what they are supposed to?
+- Is bounds checking being done?
+- Is a test framework and/or library used?
+
 
 ## Providing feedback
 
