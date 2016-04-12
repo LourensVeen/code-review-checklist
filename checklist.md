@@ -23,6 +23,8 @@ have to learn the code, which is a significant investment. Once up to speed,
 the burden is reduced significantly however, and the returns include a much
 smaller amount of time spent debugging later.
 
+
+
 ## Approach
 
 It's important to distinguish between semi-formal code *reviews* and formal
@@ -31,13 +33,18 @@ meetings paging through detailed code printouts" [REF smartbear]. As this
 extra formality does not seem to yield better results, we limit ourselves to
 light-weight, informal code reviews.
 
+
+
 ## Process
+
 
 
 ## Prerequisites
 
 
+
 ## Tools
+
 
 
 ## Review checklist
@@ -52,6 +59,7 @@ or programming language, in which case you should disregard them. You may not
 agree with some of the items on this list, in which case we'd like to see an
 issue or a pull request. Likewise if you have something to add.
 
+
 ### Excluded from this checklist
 
 The following items are part of a software quality check, but are better done
@@ -60,6 +68,7 @@ checklist. If tools are not available, they should be checked manually.
 
 - Coding conventions (e.g. PEP 8)
 - Test coverage
+
 
 ### Program level checklist
 
@@ -129,6 +138,7 @@ doubt, ask your licensing person for advice.
 - Are the licenses of all the parts compatible with each other?
 - Is the project license compatible with all libraries?
 
+
 ### File/Change level checklist
 
 When you're checking individual changes (e.g. pull requests) or files, the
@@ -194,7 +204,9 @@ style, which may not be relevant to the code you're looking at.
 - Is a test framework and/or library used?
 
 
+
 ## Providing feedback
+
 
 
 ## References
