@@ -52,11 +52,20 @@ drops quite quickly
 - Take the time, read carefully, don't review more than 500 LOC / hour
 
 
+
 ## Prerequisites
 
+Before handing over a change or a set of code for review, the following items
+should be there, so that the reviewer has something to work with:
 
+- Documentation on what was changed and why (feature, bug, issue #, etc.)
+- Comments / annotations by the author on the code itself
+- Test cases
 
-## Tools
+Also, before doing a code review, make sure any *tools* have run that check
+the code automatically, e.g. checkers for coding conventions and static
+analysis tools, and the test suite. Ideally, these are run as part of the
+continuous integration infrastructure.
 
 
 
