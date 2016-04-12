@@ -44,7 +44,7 @@ sources and experience.
 - Review everything, nothing is too short or simple
 
 - Try to have something else to do, and spread the load throughout your
-  working day. Don't review full-time.
+working day. Don't review full-time.
 
 - Don't review for more than an hour at a time, after that the success rate
   drops quite quickly
