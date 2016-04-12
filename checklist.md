@@ -40,8 +40,26 @@ light-weight, informal code reviews.
 ## Tools
 
 
-## Review
+## Review checklist
 
+This section provides two checklists for code reviews, one for the whole
+program, and one for individual files or proposed changes. In all cases, the
+goal is to use your brain and your programming experience to figure out how
+to make the code better. The lists are intended to be a source of inspiration
+and a description of what should be best practices in most circumstances, not
+a bureaucratic artifact. Some items on this list may not apply to your project
+or programming language, in which case you should disregard them. You may not
+agree with some of the items on this list, in which case we'd like to see an
+issue or a pull request. Likewise if you have something to add.
+
+### Excluded from this checklist
+
+The following items are part of a software quality check, but are better done
+by an automated tool than by a human. As such, they've been excluded from this
+checklist. If tools are not available, they should be checked manually.
+
+- Coding conventions (e.g. PEP 8)
+- Test coverage
 
 ## Providing feedback
 
