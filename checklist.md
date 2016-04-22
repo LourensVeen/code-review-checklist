@@ -129,7 +129,7 @@ to consider for small ones as well.
 
 #### Security
 
-If you're making software that is accesible to the outside world (e.g. a web
+If you're making software that is accessible to the outside world (e.g. a web
 application), then security becomes important. Security issues are defects,
 but not all defects are security issues. A security-conscious design can help
 mitigate the security impact of defects.
