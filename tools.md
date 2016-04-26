@@ -23,7 +23,7 @@ try.
 - Klocwork (http://www.klocwork.com/Code-Review-Tools)
   - Link dead, doesn't appear to offer any code review tools
 
-- Jetbrains Upsource (http://www.jetbrains.com/Upsource)
+- Jetbrains Upsource (http://www.jetbrains.com/upsource/)
   - License: proprietary, runs on your own server or cloud
   - Integrates with JetBrains IDEs (PyCharm, IntelliJ)
   - No Github integration?
