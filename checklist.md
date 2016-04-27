@@ -5,9 +5,10 @@ At the eScience Center, we value software quality. Higher quality software has
 fewer defects, better security, and better performance, which leads to happier
 users who can work more effectively.
 
-Code reviews are an effective method for improving software quality. One
-source suggests that unit testing finds approximately 25% of defects, function
-testing 35%, integration testing 45%, and code review 55-60% [REF McConnell; ]. While that
+Code reviews are an effective method for improving software quality. One 
+source suggests that unit testing finds approximately 25% of defects, function 
+testing finds approximately 35%, integration testing finds approximately 45%, 
+and code review finds approximately 55-60% [REF McConnell; ]. While that
 means that none of these methods are good enough on their own, and they should
 be combined, clearly code review is an essential tool here.
 
@@ -48,7 +49,9 @@ working day. Don't review full-time.
 
 - Don't review for more than an hour at a time, after that the success rate
 drops quite quickly
+
 - Don't review more than 400 LOC at a time, less than 200 LOC is better
+
 - Take the time, read carefully, don't review more than 500 LOC / hour
 
 
